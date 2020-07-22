@@ -15,7 +15,6 @@
     <url type="repository">https://github.com/ros-perception/perception_pcl</url>
 
     <buildtool_depend>catkin</buildtool_depend>
-
     <depend>laser_geometry</depend>
     <depend>message_filters</depend>
     <depend>nodelet</depend>
@@ -24,6 +23,10 @@
     <depend>tf2</depend>
     <depend>tf2_ros</depend>
     <depend>tf2_sensor_msgs</depend>
+    <depend>opencv</depend>
+    <depend>cv_bridge</depend>
+    <depend>std_msgs</depend>
+    <depend>dynamic_reconfigure</depend>
 
     <test_depend>roslint</test_depend>
 
